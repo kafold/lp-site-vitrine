@@ -1,0 +1,43 @@
+<div class="projet">
+
+  <h1 id="page-Projet">Page de projet</h1>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Mes Langages de programmations</h3>
+    </div>
+
+    <div class="panel-body">
+      <div class="list-group">
+        <li class="list-group-item" ng-repeat="langage in posts.cv.langage_de_programmation">{{langage}}</li>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3>Expérience proféssionnelle</h3>
+    </div>
+    <p class="panel-body" ng-repeat="xp in posts.cv.experience">
+      Titre : {{xp.Nom}}<br>
+      Description : {{xp.Description}}
+    </p>
+
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Mes Projets</h3>
+    </div>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Rechercher par Titre" aria-describedby="basic-addon1">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+    </div>
+
+    <p class="panel-body" ng-repeat="projet in posts.projets">
+      Titre : {{projet.Titre}}<br>
+      Nombre de personne participant aux projet : {{projet.Nombre_de_personne}}
+      Descriptions : {{projet.Description}}
+    </p>
+  </div>
+
+</div>
