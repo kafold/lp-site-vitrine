@@ -59,6 +59,20 @@ body {
   margin-top: 28px;
 }
 
+.panel-body{
+  border-style: outset;
+  border-width: 2px;
+  margin: 5px;
+  background-color: #CCCCFF;
+}
+
+.pad-left{
+  padding-right: 5em;
+}
+
+cite {
+  font-style: italic;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */

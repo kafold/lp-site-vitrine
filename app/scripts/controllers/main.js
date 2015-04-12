@@ -14,4 +14,10 @@ angular.module('showcaseApp')
       'AngularJS',
       'Karma'
     ];
+    $scope.custom1 = true;
+    $scope.custom2 = false;
+    $scope.toggleCustom = function() {
+      $scope.custom1 = $scope.custom1 === false ? true: false;
+      $scope.custom2 = $scope.custom2 === false ? true: false;
+    };
   });

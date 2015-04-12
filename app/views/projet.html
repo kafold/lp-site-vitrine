@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<div class="projet">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Mes Projets</h3>
+    </div>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Rechercher par Titre" aria-describedby="basic-addon1">
+      <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+    </div>
+
+    <p class="panel-body" ng-repeat="projet in projets">
+      <b>Titre</b> : {{projet.Titre}}<br>
+      <b>Matière</b> : {{projet.Matiere}}<br>
+      <b>Nombre de personne participant aux projet</b> : {{projet.Nombre_de_personne}}<br>
+      <b>Descriptions</b> : {{projet.Description}}
+    </p>
+  </div>
+
+</div>
+
+
+</html>

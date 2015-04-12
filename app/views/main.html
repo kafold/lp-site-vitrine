@@ -4,20 +4,34 @@
     <img src="images/POLYTECH%20NICE-SOPHIA.jpg" alt="Polytech Nice-Sophia"><br>
     Étudiant de 3ème année en Science Informatique
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+
+  <p>
+    <button ng-click="toggleCustom()">Petite phrase sympa<span class="glyphicon glyphicon-ok"></span></button><br>
+    <span ng-hide="custom1">
+      <p>
+        <cite>La révolution informatique fait gagner un temps fou aux hommes, mais ils le passent avec leur ordinateur !</cite> de Khalil Assala
+      </p>
+    </span>
+    <span ng-hide="custom2">
+      <p>
+        <cite>Nous ne pouvons pas prédire où nous conduira la Révolution Informatique. Tout ce que nous savons avec certitude, c'est que, quand on y sera enfin, on n'aura pas assez de RAM.</cite> de Dave Barry
+      </p>
+    </span>
+
+  </p>
 </div>
 
 <div class="row marketing">
   <h4>About</h4>
   <p>
-    Une petite description de moi.
-  </p>
-
-  <h4>Contact</h4>
-  <p>
-    Les informations nécessaires pour me contacter.
+    Description courte et ce que je fais en ce moment.
   </p>
 
   <h4>CV</h4>
-  <p>Les informations concernant ma carrière. Tels que mes projets et expérience proféssionnelle.</p>
+  <p>
+    Mon Curriculum Vitae.
+  </p>
+
+  <h4>Projets</h4>
+  <p>Les projets que j'ai réalisé au cours de ma scolarité.</p>
 </div>

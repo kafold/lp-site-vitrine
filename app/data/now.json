@@ -1,0 +1,17 @@
+[
+  {
+    "Titre" : "Exploration d'une ile",
+    "Matiere" : "OGL",
+    "Description" : "Créer un bot capable d'explorer une ile"
+  },
+  {
+    "Titre" : "Création d'un site vitrine",
+    "Matiere" : "IHM",
+    "Description" : "Créer un site vitrine pour y afficher mes informations personnelles. "
+  },
+  {
+    "Titre" : "Création d'une application pour personne à déficient visuel",
+    "Matiere" : "DeViNT",
+    "Description" : "Créer une application desktop pour des personnes mal-entendant ou sans handicap. L'application permettra d'apprendre l'alphabet braille par des petites leçons et exercises"
+  }
+]

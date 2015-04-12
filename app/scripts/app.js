@@ -29,6 +29,10 @@ angular
       })
       .when('/cv', {
         templateUrl: 'views/cv.html',
+        controller: 'CvCtrl'
+      })
+      .when('/projet', {
+        templateUrl: 'views/projet.html',
         controller: 'ProjetCtrl'
       })
       .otherwise({

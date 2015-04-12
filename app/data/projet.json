@@ -1,76 +1,33 @@
-{
-  "titre" : "IHM",
-  "nom":"Lafortune",
-  "prenom":"Pierre",
-  "age":23,
-  "descriptionCourte":"Étudiant en 1er année d'ingénieur à Polytech Nice-Sophia.",
-  "cv":{
-    "formations":{
-      "hsc":"En 2009 j'ai obtenu le HSC A Level. ",
-      "cgo":	"Une première année en Comptabilité et Gestion des Organisations ma permis de connaître les rudiments de la gestion.",
-      "dut":	"les rudiments de la gestion. Une année 1er année Licence Informatique à IUT de Nice-Sophia",
-      "licence":"Deux année de Licence Informatique : cette formation m'a apporté a travers des options",
-      "ingenieur":	"Actuellement en première année de 3ans en école d'ingénieur Polytech Nice-Sophia"
-    },
-    "langage_de_programmation":[
-      "Scheme",
-      "Python2.x",
-      "Python3.x",
-      "Java",
-      "C",
-      "Netlogo",
-      "Prolog",
-      "R",
-      "Scilab",
-      "Latex",
-      "System",
-      "Html",
-      "CSS",
-      "Visual Basic",
-      "Php",
-      "Javascript"
-    ],
-    "experience":	[
-      {
-        "Nom": "Agent hotel",
-        "Description": "Travail dans un hotel."
-      },
-      {
-        "Nom": "Vendeur directe",
-        "Description" : "Pour une entreprise mauricienne, j'ai vendu des purificateurs d'eau."
-      },
-      {
-        "Nom": "Licence Informatique",
-        "Description" : "En trinôme nous avions pour objectif de trouver une problématique..."
-      },
-      {
-        "Nom": "ingénieur",
-        "Description" : "En partenariat avec l'association Unicef, notre groupe de cinq étudiants ont aidé à organiser, communiquer et mettre en place un événement au profit de cette association."
-      }
-      ]
+[
+  {
+    "Titre": "gestion de projet",
+    "Nombre_de_personne": 5,
+    "Matiere" : "Gestion de projet",
+    "Description": "Projet en association avec l'Unicef"
+  },
+  {
+    "Titre" : "SSII avec Pure Data",
+    "Nombre_de_personne": 2,
+    "Matiere" : "SSII",
+    "Description": "Initiation à la programmation en dataflow - Utiliser des signaux audio et vidéos"
+  },
+  {
+    "Titre" : "World of Zuul",
+    "Matiere" : "POO3",
+    "Nombre_de_personne" : 4,
+    "Description" : "RPG pour décourvrir le batiment ouest de Polytech"
+  },
+  {
+    "Titre" : "DeVint",
+    "Nombre_de_personne" : 2,
+    "Matiere" : "Gestion de projet",
+    "Description" : "Creer une application pour personne à déficient visuel"
+  },
+  {
+    "Titre" : "Correcteur de mot",
+    "Nombre_de_personne" : 2,
+    "Matiere" : "Langage C",
+    "Description" : "Un programme qui corrige un mot donnée selon un dictionnaire donné"
   }
-,
-  "projets":[
-    {
-      "Titre": "gestion de projet",
-      "Nombre_de_personne": 5,
-      "Description": "Projet en association avec l'Unicef"
-    },
-    {
-      "Titre" : "SSII avec Pure Data",
-      "Nombre_de_personne": 2,
-      "Description": "Initiation à la programmation en dataflow - Utiliser des signaux audio et vidéos"
-    },
-    {
-      "Titre" : "World of Zuul",
-      "Nombre_de_personne" : 4,
-      "Description" : "RPG pour décourvrir le batiment ouest de Polytech"
-    },
-    {
-      "Titre" : "DeVint",
-      "Nombre_de_personn" : 2,
-      "Description" : "Creer une application pour personne à déficient visuel"
-    }
 
-  ]
-}
+]

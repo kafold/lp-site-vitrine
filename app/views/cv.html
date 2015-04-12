@@ -1,43 +1,61 @@
-<div class="projet">
+<!DOCTYPE html>
+<html>
+<div class="page-header">
+  <h1>Mon Curriculum Vitae</h1>
+</div>
 
-  <h1 id="page-Projet">Page de projet</h1>
-
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Mes Langages de programmations</h3>
-    </div>
-
-    <div class="panel-body">
-      <div class="list-group">
-        <li class="list-group-item" ng-repeat="langage in posts.cv.langage_de_programmation">{{langage}}</li>
-      </div>
-    </div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Carte de Visite</h3>
   </div>
-
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3>Expérience proféssionnelle</h3>
-    </div>
-    <p class="panel-body" ng-repeat="xp in posts.cv.experience">
-      Titre : {{xp.Nom}}<br>
-      Description : {{xp.Description}}
-    </p>
-
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Mes Projets</h3>
-    </div>
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Rechercher par Titre" aria-describedby="basic-addon1">
-      <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-    </div>
-
-    <p class="panel-body" ng-repeat="projet in posts.projets">
-      Titre : {{projet.Titre}}<br>
-      Nombre de personne participant aux projet : {{projet.Nombre_de_personne}}
-      Descriptions : {{projet.Description}}
-    </p>
-  </div>
+  <p class="panel-body">
+    <b>Nom</b> : {{cv.Description.nom}}<br>
+    <b>Prénom</b> : {{cv.Description.prenom}}<br>
+    <b>Nationalité</b> : {{cv.Description.nationalite}}<br>
+    <b>Age</b> : {{cv.Description.age}}<br>
+    <b>DescriptionCourte</b> :{{cv.Description.descriptionCourte}}<br>
+  </p>
 
 </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Mes Formations</h3>
+  </div>
+  <p class="panel-body">
+    <b>HSC(Higher School Certificate)</b> : {{cv.formations.hsc}}<br>
+    <b>CGO(Comptabilité et Gestion des organisations</b> : {{cv.formations.cgo}}<br>
+    <b>DUT Informatique</b> : {{cv.formations.dut}}<br>
+    <b>Licence Informatique</b> : {{cv.formations.licence}}<br>
+    <b>Ecole d'ingénieur</b> :{{cv.formations.ingenieur}}<br>
+  </p>
+
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Mes Langages De Programmations</h3>
+  </div>
+
+  <div class="panel-body">
+    <div class="list-group">
+      <ul>
+        <li class="list-group-item" ng-repeat="langage in cv.langage_de_programmation">{{langage}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Expériences professionnelles</h3>
+  </div>
+  <p class="panel-body" ng-repeat="xp in cv.experience">
+    <b>Titre</b> : {{xp.Nom}}<br>
+    <b>Description</b> : {{xp.Description}}
+  </p>
+
+</div>
+
+
+</html>
